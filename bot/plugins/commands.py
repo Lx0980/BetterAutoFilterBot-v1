@@ -116,12 +116,12 @@ Kindly Please join Group
         return
 
     buttons = [[
-        InlineKeyboardButton('Help ⚙', callback_data="about"),
+        InlineKeyboardButton('about ⚙', callback_data="about"),
         InlineKeyboardButton('Source Code 🧾', url ='https://t.me/https://t.me/githubsoursecode')],                               
      [
-        InlineKeyboardButton('Support 🛠', url='https://t.me/jns_fc_bots')
+        InlineKeyboardButton(' help⚙', callback_data="rdx")
     ],[
-        InlineKeyboardButton('Help ⚙', callback_data="help")
+        InlineKeyboardButton('RDX ⚙', callback_data="rdx")
     ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)

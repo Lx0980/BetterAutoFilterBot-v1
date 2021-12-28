@@ -116,7 +116,7 @@ Kindly Please join Group
         return
 
     buttons = [[
-        InlineKeyboardButton('Developers', url='https://t.me/DFF_UPDATE'),
+        InlineKeyboardButton('Help ⚙', callback_data="about"),
         InlineKeyboardButton('Source Code 🧾', url ='https://t.me/https://t.me/githubsoursecode')],                               
      [
         InlineKeyboardButton('Support 🛠', url='https://t.me/jns_fc_bots')
@@ -176,3 +176,20 @@ async def about(bot, update):
         reply_to_message_id=update.message_id
     )
 
+@Client.on_message(filters.command(["RDX"]) & filters.private, group=1)
+async def about(bot, update):
+    
+    buttons = [[
+        InlineKeyboardButton('Home ⚡', callback_data='start'),
+        InlineKeyboardButton('Close 🔐', callback_data='close')
+    ]]
+    reply_markup = InlineKeyboardMarkup(buttons)
+    
+    await bot.send_message(
+        chat_id=update.chat.id,
+        text=Translation.RDX_TEXT,
+        reply_markup=reply_markup,
+        disable_web_page_preview=True,
+        parse_mode="html",
+        reply_to_message_id=update.message_id
+    )

@@ -66,7 +66,7 @@ Join on our channel to get movies ✅
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/JNS_BOTS"
+                                    'Developers', url="https://t.me/DFF_UPDATE"
                                 )
                         ]
                     ]
@@ -116,13 +116,8 @@ Join on our channel to get movies ✅
         
         return
 
-    buttons = [[
-        InlineKeyboardButton('Developers', url='https://t.me/jns_bots'),
-        InlineKeyboardButton('Source Code 🧾', url ='https://t.me/https://t.me/githubsoursecode')],                               
-     [
-        InlineKeyboardButton('Support 🛠', url='https://t.me/jns_fc_bots')
-    ],[
-        InlineKeyboardButton('Help ⚙', callback_data="help")
+    buttons = [[        
+        InlineKeyboardButton('Help ❔', callback_data="help")
     ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
@@ -143,7 +138,7 @@ async def help(bot, update):
     buttons = [[
         InlineKeyboardButton('Home ⚡', callback_data='start'),
     ],[
-        InlineKeyboardButton('How to own', callback_data='about')
+        InlineKeyboardButton('How to own 🤔', callback_data='about')
     ],[
         InlineKeyboardButton('Close 🔐', callback_data='close')
     ]]

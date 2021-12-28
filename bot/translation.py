@@ -50,7 +50,7 @@ class Translation(object):
 ⚠️ Watch Deploying Tutorial...
 - https://youtu.be/KTearEPhumc
 
-➡️ Repo: <i>https://github.com/DFF01/BetterAutoFilterBot</i>
+➡️ Repo: https://github.com/DFF01/BetterAutoFilterBot
 
 © @DFF_UPDATE<i>
 """ 

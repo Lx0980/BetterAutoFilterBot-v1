@@ -142,7 +142,8 @@ Join on our channel to get movies ✅
 async def help(bot, update):
     buttons = [[
         InlineKeyboardButton('Home ⚡', callback_data='start'),
-        InlineKeyboardButton('About 🚩', callback_data='about')
+    ],[
+        InlineKeyboardButton('How to own', callback_data='about')
     ],[
         InlineKeyboardButton('Close 🔐', callback_data='close')
     ]]

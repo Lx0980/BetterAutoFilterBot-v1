@@ -116,12 +116,7 @@ Join on our channel to get movies ✅
         
         return
 
-    buttons = [[
-        InlineKeyboardButton('Developers', url='https://t.me/jns_bots'),
-        InlineKeyboardButton('Source Code 🧾', url ='https://t.me/https://t.me/githubsoursecode')],                               
-     [
-        InlineKeyboardButton('Support 🛠', url='https://t.me/jns_fc_bots')
-    ],[
+    buttons = [[        
         InlineKeyboardButton('Help ⚙', callback_data="help")
     ]]
     
@@ -141,10 +136,10 @@ Join on our channel to get movies ✅
 @Client.on_message(filters.command(["help"]) & filters.private, group=1)
 async def help(bot, update):
     buttons = [[
-        InlineKeyboardButton('Home ⚡', callback_data='start'),
-        InlineKeyboardButton('About 🚩', callback_data='about')
+        InlineKeyboardButton('How to own', callback_data='about')
     ],[
-        InlineKeyboardButton('Close 🔐', callback_data='close')
+        InlineKeyboardButton('Home ⚡', callback_data='start')        
+        InlineKeyboardButton('Close 🔐', callback_data='close'),
     ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
@@ -163,8 +158,11 @@ async def help(bot, update):
 async def about(bot, update):
     
     buttons = [[
-        InlineKeyboardButton('Home ⚡', callback_data='start'),
-        InlineKeyboardButton('Close 🔐', callback_data='close')
+        InlineKeyboardButton('Repo 😐', url='https://t.me/jns_fc_bots')
+        InlineKeyboardButton('Deploy ↗️', url='https://t.me/jns_fc_bots'),
+    ],[
+        InlineKeyboardButton('Home ⚡', callback_data='start')
+        InlineKeyboardButton('Close 🔐', callback_data='close'),
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
     

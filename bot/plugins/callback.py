@@ -1638,14 +1638,9 @@ async def callback_data(bot, update: CallbackQuery):
     query_data = update.data
 
     if query_data == "start":
-        buttons = [[
-            InlineKeyboardButton('My Dev 👨‍🔬', url='https://t.me/jintons'),
-            InlineKeyboardButton('Source Code 🧾', url ='https://t.me/githubsoursecode')
-        ],[
-            InlineKeyboardButton('Support 🛠', url='https://t.me/jns_bots')
-        ],[
-            InlineKeyboardButton('Help ⚙', callback_data="help")
-        ]]
+        buttons = [[              
+           InlineKeyboardButton('Help ⚙', callback_data="help")
+       ]]  
     
         reply_markup = InlineKeyboardMarkup(buttons)
         
@@ -1661,7 +1656,7 @@ async def callback_data(bot, update: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('Home ⚡', callback_data='start'),
         ],[
-            InlineKeyboardButton('How to owm', callback_data='about')
+            InlineKeyboardButton('How to owm 🤔', callback_data='about')
         ],[
             InlineKeyboardButton('Close 🔐', callback_data='close')
         ]]
@@ -1674,26 +1669,7 @@ async def callback_data(bot, update: CallbackQuery):
             parse_mode="html",
             disable_web_page_preview=True
         )
-        
-
-    elif query_data == "helps":
-        buttons = [[
-            InlineKeyboardButton('Home ⚡', callback_data='start'),
-        ],[
-            InlineKeyboardButton('How to owm', callback_data='about')
-        ],[
-            InlineKeyboardButton('Close 🔐', callback_data='close')
-        ]]
-    
-        reply_markup = InlineKeyboardMarkup(buttons)
-        
-        await update.message.edit_text(
-            Translation.HELPS_TEXT,
-            reply_markup=reply_markup,
-            parse_mode="html",
-            disable_web_page_preview=True
-        )
-
+            
 
     elif query_data == "about": 
         buttons = [[

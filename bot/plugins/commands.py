@@ -162,6 +162,10 @@ async def help(bot, update):
 async def about(bot, update):
     
     buttons = [[
+        InlineKeyboardButton('How To own This bot 🤔', callback_data='rdx')
+    ],[
+        InlineKeyboardButton('Bot Commands ❔', callback_data='help')
+    ],[
         InlineKeyboardButton('Home ⚡', callback_data='start'),
         InlineKeyboardButton('Close 🔐', callback_data='close')
     ]]

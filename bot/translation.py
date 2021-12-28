@@ -5,7 +5,7 @@
 class Translation(object):
     
     START_TEXT = """Hello {}!!
-<i>I am a simple bot designed and built to add autofilters to any group. For more information click the about button.</i>"""    
+<i>I am a simple bot designed and built to add autofilters to any group. For more information click the Help button.</i>"""    
     
     HELP_TEXT = """
 <b><i><u>How To Use Me!?</u></i></b>
@@ -38,19 +38,19 @@ class Translation(object):
             -> <code>Status</code> - Button Will Shows The Stats Of Your Channel
 
 
-<b>♕ 𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 ♛</b> <a href="https://t.me/jns_bots">ＪƝ⟆ ᗷ〇Ƭ⟆</a>        
+© <b>@DFF_UPDATE</b>        
 """
     
     ABOUT_TEXT = """
 <b>Deploy</b>
 
-<i>You can't use this bot so deploy your own bot.</i>
+<i>●You can't use this bot so deploy your own bot.
+●You can deploy this bot anywhere.
 
-You can deploy this bot anywhere.
-
-😎 <a href="https://youtu.be/KTearEPhumc">Watch Deploying Tutorial...</a>
+⚠️ Watch Deploying Tutorial...
+- https://youtu.be/KTearEPhumc
 
 ➡️ Repo: <i>https://github.com/DFF01/BetterAutoFilterBot</i>
 
-© @DFF_UPDATE
+© @DFF_UPDATE<i>
 """ 

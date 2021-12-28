@@ -41,9 +41,7 @@ class Translation(object):
 <b>♕ 𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 ♛</b> <a href="https://t.me/jns_bots">ＪƝ⟆ ᗷ〇Ƭ⟆</a>        
 """
     
-    ABOUT_TEXT = """☹️"""
-
-    RDX_TEXT = """<b>Deploy</b>
+    ABOUT_TEXT = <b>Deploy</b>
 
 <i>You can't use this bot so deploy your own bot.</i>
 

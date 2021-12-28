@@ -138,8 +138,8 @@ async def help(bot, update):
     buttons = [[
         InlineKeyboardButton('How to own', callback_data='about')
     ],[
-        InlineKeyboardButton('Home ⚡', callback_data='start')        
-        InlineKeyboardButton('Close 🔐', callback_data='close'),
+        InlineKeyboardButton('Home ⚡', callback_data='start'),        
+        InlineKeyboardButton('Close 🔐', callback_data='close')
     ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
@@ -158,11 +158,11 @@ async def help(bot, update):
 async def about(bot, update):
     
     buttons = [[
-        InlineKeyboardButton('Repo 😐', url='https://t.me/jns_fc_bots')
-        InlineKeyboardButton('Deploy ↗️', url='https://t.me/jns_fc_bots'),
+        InlineKeyboardButton('Repo 😐', url='https://t.me/jns_fc_bots'),
+        InlineKeyboardButton('Deploy ↗️', url='https://t.me/jns_fc_bots')
     ],[
-        InlineKeyboardButton('Home ⚡', callback_data='start')
-        InlineKeyboardButton('Close 🔐', callback_data='close'),
+        InlineKeyboardButton('Home ⚡', callback_data='start'),
+        InlineKeyboardButton('Close 🔐', callback_data='close')
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
     

@@ -160,6 +160,7 @@ async def about(bot, update):
     
     buttons = [[
         InlineKeyboardButton('Home ⚡', callback_data='start'),
+        InlineKeyboardButton('Deploy To Heroku', url='https://heroku.com/deploy?template=https://github.com/DFF01/BetterAutoFilterBot'),
         InlineKeyboardButton('Close 🔐', callback_data='close')
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)

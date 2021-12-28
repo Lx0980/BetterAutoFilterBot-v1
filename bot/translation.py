@@ -45,12 +45,12 @@ class Translation(object):
 <b>Deploy</b>
 
 <i>●You can't use this bot so deploy your own bot.
-●You can deploy this bot anywhere.
+●You can deploy this bot anywhere.</i>
 
-⚠️ Watch Deploying Tutorial...
-- https://youtu.be/KTearEPhumc
+<i>⚠️ Watch Deploying Tutorial...
+- https://youtu.be/KTearEPhumc</i>
 
 ➡️ Repo: https://github.com/DFF01/BetterAutoFilterBot
 
-© @DFF_UPDATE<i>
+© <b>@DFF_UPDATE</b>
 """ 

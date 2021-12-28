@@ -42,3 +42,16 @@ class Translation(object):
 """
     
     ABOUT_TEXT = """☹️"""
+
+    RDX_TEXT = """<b>Deploy</b>
+
+<i>You can't use this bot so deploy your own bot.</i>
+
+You can deploy this bot anywhere.
+
+😎 <a href="https://youtu.be/KTearEPhumc">Watch Deploying Tutorial...</a>
+
+➡️ Repo: <i>https://github.com/DFF01/BetterAutoFilterBot</i>
+
+© @DFF_UPDATE
+""" 
